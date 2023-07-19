@@ -1,0 +1,240 @@
+/* -font- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+font-family: 'Work Sans';
+/* --common sheared styles-- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    font-family: 'work sans';
+}
+
+
+/* global shared styles */
+
+
+.-section {
+    width: 80%;
+}
+
+
+.-container {
+    width: 80%;
+}
+
+
+h2 {
+
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+
+
+h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+
+}
+
+
+h4 {
+    color: var(--primary-text-color);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+    
+
+
+    p {
+        color: #534C64;
+        font-size: 1rem;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 30px
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .left {
+        text-align: left
+    }
+
+    .right {
+        text-align: right;
+    }
+
+
+
+.btn-primary{
+
+padding: 21px 40px;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+
+.btn-secondary{
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.btn-primary :hover{
+
+padding: 21px 40px;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+    
+    /* nav related styles */
+
+
+
+    /* Hero related styles */
+
+    .hero-section{
+        padding-bottom: 10vh;
+    }
+    .hero-container{
+        display: flex;
+        width: 80%;
+        margin: auto auto;
+        gap: 0px;
+      
+    }
+   
+    .hero-column1{
+        margin: auto 0px;
+    }
+.hero-column1>.hero-text{
+    color: #0B0223;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    border:2px solid red;
+    
+}
+
+.hero-column1{
+    
+}
+    .p2 {
+
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    .rip{
+        margin: auto 0px;
+    }
+
+    .hero-column2{
+   
+       display: flex;
+     margin: auto auto;
+
+    }
+
+    .hero-column2>img{
+
+        width: 34vw
+    }
+.btn-div{
+    padding-top: 40px;
+}
+  
+
+
+
+
+/* --we-are-gamer-section-- */
+.we-are-gamer-section{
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+
+.we-are-gamer-column1{
+    margin: auto 0px;
+}
+.we-are-gamer-container{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    padding: 10vh 0px;
+    
+}
+
+
+.we-are-gamer-column1>img{
+
+    width: 44vw;
+    margin-top: 60px;
+}
+
+.btn-gamer{
+    text-align: right;
+}
+
+.gamer-info-div{
+    text-align: right;
+}
+
+.we-are-gamer-info{
+font-size: 24px;
+font-weight: 500;
+line-height: 45px; 
+}
+
+.unleash{
+font-size: 1.7rem;
+font-weight: 700;
+line-height: 45px;
+
+}
