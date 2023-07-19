@@ -53,12 +53,16 @@ p {
 .nav-container{
     padding-top: 10px;
     margin: 0px auto;
+    padding-right: 80px;
+}
 }
 
 
 .logo-title{
-    padding-left: 40px;
+    padding-left: 60px;
 }
+
+   
 
 .we-are-gamer-section {
     padding: 0px;
@@ -286,9 +290,14 @@ h6,
 }
 
     .logo-site-title{
-        margin-left: 60px;
+        : 60px;
     }
 
+
+.footer-container{
+
+}
+    
     .footer-menu li{
   
         list-style: none;
@@ -320,8 +329,9 @@ h6,
 
 }
 
-.t
-
+.terms-container{
+    padding-left: 30px;
+}
 
 .footer-container{
     padding-right: 30px;
