@@ -8,7 +8,6 @@
         padding: 0px;
     }
 
-    .btn-secondary {}
 
 
 
@@ -61,13 +60,29 @@
     }
 
 
+    h6 {
+        color: #0B0223;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: normal;
+    }
 
+    .gradient-text {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: normal;
+    }
 
     p {
         color: #534C64;
         font-weight: 400;
         font-size: 1.125rem;
-        line-height: 30px
+        line-height: 30px;
+
     }
 
     .center {
@@ -163,6 +178,7 @@
     .nav-menu {
         display: flex;
         align-items: center;
+        flex-direction: row;
     }
 
     .nav-menu li {
@@ -193,7 +209,7 @@
 
 
 
-    /* Hero related styles */
+    /* Hero-related-styles */
 
     .hero-section {
         padding-top: 40px;
@@ -217,6 +233,8 @@
 
 
 
+
+
     }
 
 
@@ -230,7 +248,6 @@
 
     }
 
-    .hero-items {}
 
     .p2 {
 
@@ -245,7 +262,7 @@
 
     }
 
-   
+
 
 
     .hero-column2>img {
@@ -316,4 +333,79 @@
         font-weight: 700;
         line-height: 45px;
 
+    }
+
+
+
+    /* --online-games-section-- */
+    .online-games-section h6 {
+        margin: 0px auto;
+        width: 80%;
+        padding: 70px 0px 30px 0px;
+    }
+
+    .card {
+        margin: 30px auto 0px;
+        width: 80%;
+
+
+    }
+
+
+    .card-items {
+        display: flex;
+        gap: 20px;
+    }
+
+    .card-hover-box {
+        width: 258px;
+        position: relative;
+
+    }
+
+    .card-hover-box img {
+        width: 100%;
+    }
+
+    .card-hover-box>img:hover {
+        border: 3px solid #FF42A5;
+        border-radius: 12px;
+    }
+
+    .card-hover-box .card-caption {
+        font-size: 16px;
+        color: #534C64;
+        text-align: left;
+    }
+
+    .overlay-watch-icon {
+        position: absolute;
+        display: none;
+        top: 100px;
+
+        border-radius: 10px;
+
+    }
+
+    .overlay-watch-icon img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
+
+    .overlay-watch-icon p {
+        color: #FF42A5;
+        font-weight: bold;
+    }
+
+    .card-hover-box:hover .overlay-watch-icon {
+        display: block;
+        background-color: #130000b7;
+        height: 75%;
+        cursor: pointer;
+        margin-top: -100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }

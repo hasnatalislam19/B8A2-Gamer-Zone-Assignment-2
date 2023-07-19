@@ -1,7 +1,216 @@
-@media screen and (max-width: 560px){
+@media screen and (max-width: 576px) {
+
+
+
+    .body{
+        text-align: center;
+    }
+
+    h1,
+    h4,
+    h5,
+    .hero-column1>.hero-text,
+     {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .-section {
+        width: 100%;}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+
+}
+h3{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+    .-container{
+        padding: 0px;
+    }
+.we-are-gamer-section{
+        padding: 0px;
+    }
+
+    .nav-menu,
+    .nav-container,
+    .nav-anchor,
+    .we-are-gamer-container {
+        flex-direction: column;
+    }
+
+
+    .hero-container{
+        flex-direction: column-reverse;
+    }
+    .nav-menu li {
+        margin: 25px 0px;
+    }
+
+
+    .logo-title {
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+
+
+    .hero-column2>img {
+
+        width: 80vw;
+    }
+
+    .banner-section{
+        background-image: none;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        padding: 20px 40px;
+    }
+    .hero-column1{
+        background-image: url('../images/Group\ 14.png');
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 10px;
+        padding: 70px 20px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .hero-column1, {
+        width: 100%;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        padding: 18px 30px;
+        font-size: 16px;
+
+    
+    }
+
+        
+/* --we-are-gamer-section-- */
+
+.we-are-gamer-column1 img{
+    text-align: center;
+    width: 80vw;
+}
+
+
+.we-are-gamer-column2 p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.btn-gamer {
+  text-align: center;
+}
+.unleash{
+font-size: 1.2rem;
+}
+
+/* --Online games related styles-- */
+
+.online-games-section h6{
+    padding: 20px 0px 0px 0px;
+}
+
+h6,
+.gradient-text{
+font-size: 2rem;
+}
+
+
+.card-items {
+    flex-direction: column;
+    }
+    .online-games-text{
+        width: 80%;
+        margin: auto auto;
+    }
+    
+    .card-hover-box{
+            width: 100%;
+        }
+        .games-funny-videos{
+            padding: 0px 40px;
+        }
+        .card-hover-box .card-caption{
+            text-align: center;
+        }
+        .card-hover-box:hover .overlay-watch-icon{
+            height: 80%;
+        }
+    
+
+}
 
 
 
 
 
 
+
+ 
+
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width: 960px){
+
+    .nav-menu,
+    .nav-container,
+    .nav-anchor{
+        flex-direction: column;
+    }
+    .nav-menu li {
+        margin: 25px 0px;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        padding: 18px 30px;
+        font-size: 16px;
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
