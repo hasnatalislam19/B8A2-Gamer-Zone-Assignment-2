@@ -48,8 +48,7 @@
 
 
     h4 {
-        color: var(--primary-text-color);
-        font-size: 3rem;
+
         font-weight: 700;
         line-height: 60px;
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -76,6 +75,8 @@
         font-weight: 700;
         line-height: normal;
     }
+
+   
 
     p {
         color: #534C64;
@@ -338,6 +339,11 @@
 
 
     /* --online-games-section-- */
+
+    .online-games-section{
+        padding-bottom: 40px;
+    }
+
     .online-games-section h6 {
         margin: 0px auto;
         width: 80%;
@@ -409,3 +415,54 @@
         justify-content: center;
         width: 100%;
     }
+
+
+
+
+    /* -----play-instantly-section----- */
+    .play-instantly-container {
+        display: flex;
+        width: 80%;
+        margin: 0px auto;
+        margin-bottom: 70px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .play-instantly-column1{
+        width: 40%;
+        padding-right: 300px;
+    }
+    
+ 
+ .play-instantly-column1 h6{ margin: 0px
+    
+    ;
+
+ }
+    .play-instantly-column1 p{
+        margin top: 20px;
+
+    }
+    .play-instantly-column2{
+        width: 50%;
+        position: relative;
+    }
+    .play-instantly-column2 > img{
+        width: 100%;
+    }
+    .play-instantly-column2 .inside-img{
+        position: absolute;
+        top: 60%;
+        left: -30%;
+    }
+    .inside-img img{
+        width: 70%;
+    }
+
+     .play-instantly-column1{
+        padding-right: 30px;
+     }
