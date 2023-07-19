@@ -16,9 +16,7 @@
 
     h1,
     h4,
-    h5,
-    .hero-column1>.hero-text,
-    {
+    h5{
     font-size: 2rem;
     text-align: center;
 }
@@ -110,6 +108,11 @@ width: 100%;
 
 
 }
+
+.hero-column1>.hero-text{
+    text-align: center;
+}
+
 
 
 /* --we-are-gamer-section-- */
@@ -222,14 +225,22 @@ h6,
   }
 
   .inside-img img{
-    width: 55%;
-    margin-left: 20px;
-    margin-top: -40px;
+    width: 45%;
+    margin-left: 45px;
+    margin-top: -150px;
   }
 
 
-
-
+/* -------btn-link-section---- */
+  .btn-link-container{
+    padding:100px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-wrap: calc(3 column);
+   
+}
 
 
 
@@ -323,11 +334,15 @@ h6,
 }
 
 
+
+
+
+
+
 }
 
 
 
-}
 
 
 

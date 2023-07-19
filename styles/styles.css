@@ -474,6 +474,69 @@
      .play-instantly-column1{
         padding-right: 30px;
      }
+
+
+
+/* -------------- */
+
+.games-btn-link-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 110px;
+}
+.btn-link-container{
+    padding:100px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: 0px auto;
+}
+.btn-game-link{
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px 10px;
+    padding-right: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    
+}
+.btn-game-link p{
+    color: #0B0223;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn-game-link:hover{
+    border-radius: 50px;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+    padding: 8px 8px;
+    padding-right: 18px;
+}
+.btn-game-link:hover p{
+    color: #FF42A5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----Footer-section------- */
 .footer-section{
     display: flex;
