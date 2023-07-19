@@ -334,7 +334,8 @@ h6,
 
 
 .copyright{
-    padding-top: 60px;
+    padding-top: 70px;
+    padding-left: 60px;
 }
 
 
@@ -365,9 +366,17 @@ h6,
 
     .nav-menu,
     .nav-container,
-    .nav-anchor {
+    .nav-anchor,
+    .we-are-gamer-container {
         flex-direction: column;
     }
+
+.play-instantly-container{
+    flex-direction: column-reverse;
+}
+
+
+
 
     .nav-menu li {
         margin: 25px 0px;
@@ -378,13 +387,58 @@ h6,
         padding: 18px 30px;
         font-size: 16px;
 
+    }
+        .btn-gamer,
+        .we-are-gamer-column2>h3,p{
+            text-align: center;
+        }
+   
+
+
+.play-instantly-column1{
+    
+text-align: center;
+padding: 0px;
+padding-top: 70px;
+width: 80%;
+margin: 0px auto;
+padding-left: 100px;
+
+
+}
+.play-instantly-column1 h3{
+    text-align: center;
+    font-size: 3rem;
+
+}
 
 
 
+.play-instantly-column1 h6{
+    text-align: center;
+    font-size: 3rem;
+}
+        
+.play-instantly-column1p{ 
+    text-align: center;
+        }
 
+        .play-instantly-container{
+            margin: 0px;
+            padding: 0px;
+        }
 
+.play-instantly-column2 img{
+  margin-left: 40px;
+}
 
+.we-are-gamer-column1 img{
+width: 100%;
+}
 
+.we-are-gamer-column2 p{
+    text-align: center;
+}
 
 
 
