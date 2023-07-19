@@ -263,7 +263,9 @@
 
     .btn-div {
         display: flex;
-        justify-content: space-between;
+
+        width: max-content;
+        gap: 40px;
 
     }
 
