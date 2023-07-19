@@ -172,6 +172,7 @@ h6,
 
 /*-------play-instantly-section-------- */
 
+
 .play-instantly-column1> h3 {
     text-align: center;
     font-size: 2rem;
@@ -209,6 +210,7 @@ h6,
 
 .play-instantly-column2{
     width: 100%;
+    padding-bottom: 200px;
 }
 
 
@@ -228,6 +230,90 @@ h6,
 
 
 
+
+
+
+
+
+
+
+  /* ------Footer-section----- */
+
+
+.footer-section,
+.social-icons-div,
+.footer-menu-div,
+.terms-div{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+  .footer-menu-div,.terms-container,.social-icons-div{
+    flex-direction: column;
+
+    }
+
+    .B8A2,h1{
+        font-size: 2rem;
+    }
+  
+
+    .social-icons-div2{
+        margin: 0px;
+    }
+    
+    .terms-div2
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+.footer-menu-div2{
+    margin: 0px;
+    padding: 0px;
+}
+
+    .logo-site-title{
+        margin-left: 60px;
+    }
+
+    .footer-menu li{
+  
+        list-style: none;
+       margin: 0px;
+       padding: 0px;
+       margin: 20px;
+    }
+
+
+.social-icons-div1>img,.social-icons-div2>img{
+  
+    margin: 20px;
+}
+
+.social-icons-div{
+    margin-left: 10px;
+}
+
+.terms-div1>li{
+    margin: 0px;
+    padding: 0px;
+
+}
+.terms-div2>li{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.copyright{
+    padding-top: 30px;
+}
+
+
+}
 
 
 
