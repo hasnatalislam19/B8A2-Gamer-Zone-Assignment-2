@@ -55,14 +55,15 @@ p {
     margin: 0px auto;
     padding-right: 80px;
 }
-}
 
 
 .logo-title{
-    padding-left: 60px;
+    padding-left: 50px;
 }
+.logo-title{
+    
 
-   
+}
 
 .we-are-gamer-section {
     padding: 0px;
@@ -289,15 +290,9 @@ h6,
     padding: 0px;
 }
 
-    .logo-site-title{
-        : 60px;
+    .terms-container{
+        padding-left: 30px;
     }
-
-
-.footer-container{
-
-}
-    
     .footer-menu li{
   
         list-style: none;
@@ -329,9 +324,8 @@ h6,
 
 }
 
-.terms-container{
-    padding-left: 30px;
-}
+.t
+
 
 .footer-container{
     padding-right: 30px;
