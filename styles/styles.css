@@ -372,7 +372,7 @@
     .card-hover-box {
         width: 258px;
         position: relative;
-        
+
 
     }
 
@@ -432,7 +432,7 @@
         display: flex;
         width: 80%;
         margin: 0px auto;
-  
+
         text-align: center;
         display: flex;
         align-items: center;
@@ -514,7 +514,7 @@
         color: #0B0223;
         font-size: 14px;
         font-weight: 600;
-      
+
     }
 
     .catagory-btn:hover {
@@ -547,17 +547,27 @@
 
 
     /* ----Footer-section------- */
+
+
+    footer {
+        background: #0B0223;
+    }
+
     .footer-section {
         display: flex;
         justify-content: center;
         background: #0B0223;
         color: #fff;
+        margin: 0px auto;
+        width: 80%;
     }
+
 
     .footer-container {
         padding: 100px 0px;
-        margin: 0 auto;
+        margin: 0px auto;
         text-align: center;
+        width: 80%;
     }
 
     .logo>img {
@@ -627,6 +637,7 @@
     .footer-menu-div,
     .terms-container {
         display: flex;
+        margin: 0px auto;
 
 
     }
@@ -646,4 +657,7 @@
     .footer-menu-div2,
     .terms-div2 {
         margin-left: -40px;
+    }
+    .footer-menu-div{
+        margin-left: -50px;
     }
